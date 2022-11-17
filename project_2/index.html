@@ -2,73 +2,74 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-        <title>Mobile-first Responsive Layout</title>
+        <title>Mobile-First Responsive Layout</title>
     </head>
 
     <body>
 
-        <header class="container-1" id="top">
-            <div id="home">
+        <header class="header-class" id="top">
+            <nav class="my-nav">
                 <h1 class="my-h1">Ransmon Anderson</h1>
-                    <ul class="my-nav">
-                        <li class="list-items-1"><a href="#home">Home</a></li>
-                        <li class="list-items-2"><a href="#portfolio">Portfolio</a></li>
-                        <li class="list-items-3"><a href="#contact">Contact</a></li>
-                    </ul>
-            </div>
+                        <ul class="my-nav-2">
+                            <li class="list-items-1"><a href="#home">Home</a></li>
+                            <li class="list-items-2"><a href="#portfolio">Portfolio</a></li>
+                            <li class="list-items-3"><a href="#contact">Contact</a></li>
+                        </ul>
+            </nav>
             
-            <section>
-                <div>
-                
-                    <h3 class="my-h3">about me</h3>
+            <section class="section-1">
+                    <h3 class="my-h3 my-h3-2">About Me</h3>
+                <div class="about-me">
 
-                    <div>
-                        <img src="images/raz.jpg" class= "my-pic" alt= "Ransmon Anderson, Web Developer"></a>
-                    </div>
+                    <img src="images/raz.jpg" class= "my-pic" alt= "Ransmon Anderson, Web Developer">
                     <p class="my-p">
                         Hello! I'm a Front-End Web Developer who understands the importance of Responsive design and css. 
                         I recently finished my web degree at Treehouse and I'm excited to demonstrate my skills.
                     </p>
                 </div>
             </section>
-
         </header>
 
 
-        <main class="container-2">
-            <section class="div-1">
+        <main>
+            <section class="section-2">
                 <h3 class="my-h3" id="portfolio">Portfolio</h3>
-
-                    <div><a href="https://turo.com/"><img src="images/portfolio-1.png" class="img-src-1" alt="Marketing Page"></a><h5 class="my-h5">Marketing Page</h5></div>
-                    <div><a href="https://google.com/"><img src="images/portfolio-2.png" class="img-src-1" alt="Search Page"></a> <h5 class="my-h5">Search Page</h5> </div>
-                    <div><a href="https://hopper.com/"><img src="images/portfolio-3.png" class="img-src-1" alt="Travel App"></a> <h5 class="my-h5">Travel App</h5> </div>
-                    <div><a href="https://maps.com/"><img src="images/portfolio-4.png" class="img-src-1" alt="Map"></a> <h5 class="my-h5">Map</h5> </div>
-                    <div><a href="https://googlephotos.com/"><img src="images/portfolio-5.png" class="img-src-1" alt="Photo Gallery"></a> <h5 class="my-h5">Photo Gallery</h5> </div>
-                    <div><a href="https://calculator.com/"><img src="images/portfolio-6.png" class="img-src-1" alt="Calculator"></a> <h5 class="my-h5">Calculator</h5> </div>
+                    <div class="container-1">
+                        <div class="col div-1"><a href="https://turo.com/"><img src="images/portfolio-1.png" class="img-src-1" alt="Marketing Page"></a><p class="div-p-1">Marketing Page</p></div>
+                        <div class="col div-2"><a href="https://google.com/"><img src="images/portfolio-2.png" class="img-src-1" alt="Search Page"></a><p class="div-p-2">Search Page</p></div>
+                        <div class="col div-3"><a href="https://hopper.com/"><img src="images/portfolio-3.png" class="img-src-1" alt="Travel App"></a><p class="div-p-1">Travel App</p></div>
+                        <div class="col div-4"><a href="https://maps.com/"><img src="images/portfolio-4.png" class="img-src-1" alt="Map"></a><p class="div-p-2">Map</p></div>
+                        <div class="col div-5"><a href="https://googlephotos.com/"><img src="images/portfolio-5.png" class="img-src-1" alt="Photo Gallery"></a><p class="div-p-1">Photo Gallery</p></div>
+                        <div class="col div-6"><a href="https://calculator.com/"><img src="images/portfolio-6.png" class="img-src-1" alt="Calculator"></a><p class="div-p-2">Calculator</p></div>
+                    </div>
             </section>
 
-            <section>
-                <div>
+            <section class="section-3">
+                <div class="section-3-div">
                     <h3 class="my-h3" id="contact">Contact</h3>
 
                     <p class="my-p-2"> If interested, please do not hesitate to reach out to me:</p>
-                    <span> Phone:<h5 class="my-h5">000-000-0000</h5></span> 
-                <br>
-                    <span> Email: <h5 class="my-h5">randerson0485@gmail.com </h5><span>
+                    <div class="div-contact">
+                        <p>Phone:</p><h5 class="my-h5">000-000-0000</h5> 
+                    
+                        <p>Email:</p><h5 class="my-h5">randerson0485@gmail.com</h5>
+                    </div>
                 </div>
             </section>
         </main>
 
-        <footer class="container-3">
-            <article>
-                <div>
-                    <ul class="my-footer">
-                        <li>Ransmon Anderson</li>
-                        <li><a href= #top>Back to top</a></li>
-                    </ul>
-                </div>
-            </article>
+        <footer>
+            <div>
+                <ul class="my-footer">
+                    <li>Ransmon Anderson</li>
+                    <li><a href= #top>Back to top</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 
